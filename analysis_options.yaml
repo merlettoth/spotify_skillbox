@@ -1,0 +1,32 @@
+include: package:lint/analysis_options.yaml
+
+linter:
+  rules:
+    - file_names
+    - literal_only_boolean_expressions
+    - avoid_catches_without_on_clauses
+    - avoid_redundant_argument_values
+    - prefer_final_in_for_each
+    - prefer_for_elements_to_map_fromIterable
+    - prefer_if_null_operators
+    - prefer_is_not_operator
+    - sized_box_for_whitespace
+    - use_named_constants
+    - use_string_buffers
+
+analyzer:
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+
+  exclude:
+    - lib/**/*.g.dart
+    - lib/generated/
+    - lib/generated_plugin_registrant.dart
+
+  errors:
+    avoid_classes_with_only_static_members: ignore
+    sort_pub_dependencies: ignore
+    directives_ordering: ignore
+    avoid_catches_without_on_clauses: ignore
+

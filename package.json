@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "dart-code": "github:Dart-Code/Dart-Code"
+  }
+}

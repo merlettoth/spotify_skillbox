@@ -1,0 +1,1 @@
+Для правильной работы приложения в библиотеке audioplayers в файле lib/src/audioplayer.dart на 99 строке нужно удалить "distinct()".

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "907700209370",
+    "project_id": "spotify-skillbox",
+    "storage_bucket": "spotify-skillbox.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907700209370:android:072512356f5444ed7647e3",
+        "android_client_info": {
+          "package_name": "com.example.spotify_skillbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907700209370-dpftd931ppn37a0clrmecmct909vrpcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOeXyYRoidVdlWbBMyTa4Bhm55sPKYyyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907700209370-dpftd931ppn37a0clrmecmct909vrpcr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
